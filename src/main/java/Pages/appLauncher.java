@@ -19,7 +19,7 @@ public class appLauncher extends ProjectMethod{
 	driver.findElementByXPath("//*[@class='slds-icon slds-icon_x-small']").click();
 	driver.findElementByXPath("//*[@class='slds-icon-waffle']").click();
 	driver.findElementByXPath("//button[text()='View All' and @class='slds-button']").click();
-	driver.findElementByXPath("//p[contains(text(),'Manage your sales')]").click();
+	driver.findElementByXPath("//p[contains(text(),'Service Console')]").click();
 	return new appLauncher(driver);
 	
 	}

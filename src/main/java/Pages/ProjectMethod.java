@@ -1,6 +1,5 @@
-package base;
+package Pages;
 
-import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,8 +10,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class ProjectMethod {
 	
 	public ChromeDriver driver;
-	public Properties prop;
-	public String excelFileName;
 	
 	
 	@BeforeMethod
